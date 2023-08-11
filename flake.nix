@@ -20,6 +20,7 @@
 
     packages = {
       machine-learning = pythonPackages.callPackage ./nix/pkgs/machine-learning {};
+      server = pkgs.callPackage ./nix/pkgs/server {};
     };
 
   });
